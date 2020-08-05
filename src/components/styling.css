@@ -1,0 +1,187 @@
+#outerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 15px 15px grey;
+    justify-content: center;
+   background-color: lightgrey;
+  
+    margin-left: 20px;
+    margin-right: 20px;
+   margin-top: 50px;
+   min-width: 700px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    
+}
+
+.wrapper{
+  
+    display: flex;
+    justify-content: center;
+}
+
+
+#innerContainer{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   margin-top: 10px;
+    width: 270px;
+
+ 
+}
+
+#creditHeading{
+
+    color: rgb(190, 12, 12);
+    font-size: 30px;
+    text-shadow: 0px 10px 10px grey;
+}
+
+#creditAmount{
+
+    color: rgb(190, 12, 12);
+    font-size: 25px;
+    text-shadow: 0px 10px 10px grey;
+}
+
+
+#debitHeading{
+
+    color: green;
+    font-size: 30px;
+    text-shadow: 0px 10px 10px grey;
+}
+
+#debitAmount{
+
+    color: green;
+    font-size: 25px;
+    text-shadow: 0px 10px 10px grey;
+}
+
+
+#balance{
+    border-style: groove;
+    border-width: 5px;
+    margin-top: 20px;
+    background-color: rgb(231, 236, 236);
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 5px;
+    text-shadow: 0px 5px 10px rgb(136, 136, 138);
+    font-size: 30px;
+    
+}
+
+.listItems {
+
+    list-style-type: none;
+    display: flex;
+
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-style: ridge;
+    background-color: lightgrey;
+    
+   
+}
+
+.listItemDetailMinus{
+
+    margin-left: 10px;
+    margin-right: 10px;
+color: red;
+
+    
+}
+
+
+
+.listItemDetailPlus{
+
+    margin-left: 10px;
+    margin-right: 10px;
+color: green;
+    
+}
+
+
+
+#deleteButton{
+
+   opacity: 0;
+}
+
+.listItems:hover #deleteButton{
+
+    background-color: grey;
+    opacity: 1;
+ }
+ 
+ #form{
+
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-size: bold;
+
+ }
+
+ .input{
+
+    padding:3px
+ }
+
+ #addTransaction{
+
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+
+ #addTransaction:hover{
+
+        color: white;
+        background-color: black;
+ }
+
+ #mainHeading{
+
+    text-align: center;
+    text-shadow: 0px 5px 10px rgb(136, 136, 138);
+    font-size: 50px;
+    
+    min-width: 660px;
+   
+   
+ }
+
+ body{
+    background-image: linear-gradient(to bottom, rgb(224, 220, 220) , white);
+    background-repeat: no-repeat;
+}
+
+
+#transactionContainer{
+
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 500px;
+    max-width: 500px;
+    margin-top: 30px;
+
+}
