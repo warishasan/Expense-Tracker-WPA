@@ -2,24 +2,25 @@
 
 const cacheName = 'v1';
 
-/*const cacheAssets = [
+/*
+const cacheAssets = [
   './serviceRegister.js',
   './index.html',
   './static/js/bundle.js',
-  './static/js/0.chunk.js',
+  './static/js/1.chunk.js',
   './static/js/main.chunk.js',
   './App.js',
   './'
 
 
-];*/
-
+];
+*/
 
 const cacheAssets = [
-  './static/js/2.662401e5.chunk.js',
-  './index.html',
-  './static/js/main.2122117d.chunk.js',
   './static/css/main.f95d1124.chunk.css',
+  './index.html',
+  './static/js/2.c7367c9a.chunk.js',
+  './static/js/main.e506733e.chunk.js',
   './'
 
 
