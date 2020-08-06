@@ -35,16 +35,16 @@ let balance = income - expense;
 
   return (
     <div className = "wrapper">
-     <div id = "outerContainer">
-        <div id = "innerContainer">
-            <h2 id = "creditHeading">Debit</h2>
+     <div className = "outerContainer" >
+        <div >
+            <h2 id = "debitHeading">Debit</h2>
             <hr></hr>
-            <h3 id = "creditAmount">${income}</h3>
+            <h3 id = "debitAmount">${income}</h3>
         </div>
-        <div id = "innerContainer">
-            <h2 id = "debitHeading">Credit</h2>
+        <div >
+            <h2 id = "creditHeading">Credit</h2>
             <hr></hr>
-            <h3 id = "debitAmount">${expense}</h3>
+            <h3 id = "creditAmount">${expense}</h3>
         </div>
         
   <h2 id = "balance">Balance: ${balance}</h2>

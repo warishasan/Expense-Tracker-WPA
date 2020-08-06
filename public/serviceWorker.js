@@ -16,10 +16,10 @@ const cacheName = 'v1';
 
 
 const cacheAssets = [
-  './static/js/2.f0187318.chunk.js',
+  './static/js/2.662401e5.chunk.js',
   './index.html',
-  './static/js/main.e61f4e11.chunk.js',
-  './static/css/main.fa5ead51.chunk.css',
+  './static/js/main.2122117d.chunk.js',
+  './static/css/main.f95d1124.chunk.css',
   './'
 
 

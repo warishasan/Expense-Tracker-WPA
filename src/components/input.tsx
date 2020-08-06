@@ -34,8 +34,8 @@ setText("")
 const { addTransaction } = React.useContext(GlobalContext);
   return (
 
-    <div className = "wrapper">
-    <div id = "outerContainer">
+    <div className = "outerContainerInput">
+    <div>
       
      <form id = "form">
          <label > Details: 

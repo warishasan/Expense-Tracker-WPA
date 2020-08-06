@@ -10,8 +10,8 @@ function Transactions() {
     
     return (
 
-        <div className = "wrapper">
-        <div id = "transactionContainer">
+        <div  >
+        <div className = "outerContainerTransaction">
 
             {state.map((items) => {
 

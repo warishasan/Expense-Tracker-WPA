@@ -4,7 +4,6 @@ import DisplayAmount from './components/displayAmount'
 import Input from './components/input'
 import Transactions from './components/transactions'
 import {GlobalProvider} from './context/globalState'
-import './components/styling.css';
 
 function App() {
 
@@ -12,7 +11,7 @@ function App() {
   return (
     <GlobalProvider>
 
-      <h1 id = "mainHeading">Expense Tracker Application</h1>
+      <h1 id = "header" >Expense Tracker</h1>
     <div className="App">
      
     <DisplayAmount></DisplayAmount>
